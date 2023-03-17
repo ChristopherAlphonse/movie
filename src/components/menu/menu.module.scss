@@ -32,6 +32,12 @@
   width: 100%;
 }
 .list {
+  padding: 1px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
 }
 .list_item {
 }

@@ -6,6 +6,7 @@ type MenuProps = {
 };
 
 const sortBy: string[] = ['Popularity', 'Most Voted', 'Release Date'];
+const genre: string[] = ['Action', 'Comedy', 'Horror'];
 
 export const Menu = ({ className }: MenuProps): JSX.Element => {
   const imageUrl =
@@ -21,6 +22,15 @@ export const Menu = ({ className }: MenuProps): JSX.Element => {
       <hr className={styles.hr} />
       <ul className={styles.list}>
         {sortBy.map((item, index) => (
+          <li className={styles.list_item} key={index}>
+            {item}
+          </li>
+        ))}
+      </ul>
+      <span className={styles.title}>Genre</span>
+      <hr className={styles.hr} />
+      <ul className={styles.list}>
+        {genre.map((item, index) => (
           <li className={styles.list_item} key={index}>
             {item}
           </li>
