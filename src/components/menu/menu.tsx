@@ -7,10 +7,6 @@ type MenuProps = {
 
 const sortBy: string[] = ['Popularity', 'Most Voted', 'Release Date'];
 
-/**
- * This component was created using Codux's Default new component template.
- * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-menus-and-templates
- */
 export const Menu = ({ className }: MenuProps): JSX.Element => {
   const imageUrl =
     'https://img.icons8.com/doodle/48/null/movie-projector--v1.png';
