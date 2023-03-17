@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "allowJs": false,
+    "checkJs": true,
     "composite": true,
     "module": "ESNext",
     "moduleResolution": "Node",
