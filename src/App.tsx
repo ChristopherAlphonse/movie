@@ -1,7 +1,7 @@
+import styles from './App.module.scss';
 import { Container } from './components/container/container';
 import { Favorite } from './components/favorite/favorite';
 import { Menu } from './components/menu/menu';
-import styles from './App.module.scss';
 
 function App() {
   return (

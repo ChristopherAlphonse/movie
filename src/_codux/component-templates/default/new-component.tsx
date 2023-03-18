@@ -1,8 +1,9 @@
 import classNames from 'classnames';
+
 import styles from './new-component.module.scss';
 
 export interface NewComponentProps {
-    className?: string;
+  className?: string;
 }
 
 /**
@@ -10,5 +11,5 @@ export interface NewComponentProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-new-components-and-templates
  */
 export const NewComponent = ({ className }: NewComponentProps) => {
-    return <div className={classNames(styles.root, className)}>NewComponent</div>;
+  return <div className={classNames(styles.root, className)}>NewComponent</div>;
 };

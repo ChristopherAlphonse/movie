@@ -1,4 +1,5 @@
 import classNames from 'classnames';
+
 import styles from './menu.module.scss';
 
 type MenuProps = {
@@ -9,13 +10,12 @@ const sortBy: string[] = ['Popularity', 'Most Voted', 'Release Date'];
 const genre: string[] = ['Action', 'Comedy', 'Horror'];
 
 export const Menu = ({ className }: MenuProps): JSX.Element => {
-  const imageUrl =
-    'https://img.icons8.com/doodle/48/null/movie-projector--v1.png';
+  const imageUrl = 'https://img.icons8.com/doodle/48/null/movie-projector--v1.png';
 
   return (
     <div className={classNames(styles.root, className)}>
       <div className={styles.logo}>
-        <img src={imageUrl} alt='logo' className={styles.logo_image}></img>
+        <img src={imageUrl} alt="logo" className={styles.logo_image}></img>
         <span className={styles.logo_text}>CineMovie</span>
       </div>
       <span className={styles.title}>Sort By</span>

@@ -1,5 +1,6 @@
-import { Card } from '../card/card';
 import classNames from 'classnames';
+
+import { Card } from '../card/card';
 import styles from './cards.module.scss';
 
 export interface CardsProps {
