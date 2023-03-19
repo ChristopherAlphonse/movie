@@ -17,21 +17,15 @@ export const Cards = ({ className }: CardsProps) => {
       <Card
         movie={{
           id: '1223',
-          overview: 'lloremorem ipsum dolor sit amet, ssasdad',
+          overview:
+            'In the near future around the American Midwest, Cooper, an ex-science engineer and pilot, is tied to his farming land with his daughter Murph and son Tom. As devastating sandstorms ravage Earth',
           vote_average: 7,
           release_date: '1999',
-          title: 'Avatar',
+          title: 'Interstellar',
           poster_path:
-            'https://www.cnet.com/a/img/resize/bc48bbd2f4dbb7f5799eb4bc28bdcf6f19f6f408/hub/2022/05/10/708507de-bb07-4c16-9a94-bbf206a59fd5/avatar.jpg?auto=webp&fit=crop&height=675&width=1200',
+            'https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg',
         }}
       />
-      {/* <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card />
-      <Card /> */}
     </div>
   );
 };

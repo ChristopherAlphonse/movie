@@ -1,4 +1,4 @@
-@import './variables';
+@import './_variables.scss';
 
 .App {
   margin: 0 auto;
@@ -43,5 +43,5 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: $menu-primary-color;
 }

@@ -1,7 +1,11 @@
-@import 'variables';
+@import '../../_variables.scss';
 .root {
   flex-grow: 1;
   flex-shrink: 1;
   background-color: $menu-bg-color;
   color: $menu-primary-color;
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
 }
